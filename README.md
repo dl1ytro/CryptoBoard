@@ -63,3 +63,7 @@ By default, the region with the closest local time to the user's time will be hi
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+## Project webpage
+
+https://dl1ytro.github.io/CryptoBoard/
