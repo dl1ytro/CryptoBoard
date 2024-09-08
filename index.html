@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Price & Time Zones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Баннер с временем для регионов -->
+    <div id="time-banner">
+        <!-- Названия регионов размещены над ячейками -->
+        <div class="time-box-wrapper">
+            <div class="region-name">UTC</div>
+            <div id="utc" class="time-box"></div>
+        </div>
+        <div class="time-box-wrapper">
+            <div class="region-name">ASIA</div>
+            <div id="asia" class="time-box"></div>
+        </div>
+        <div class="time-box-wrapper">
+            <div class="region-name">USA</div>
+            <div id="usa" class="time-box"></div>
+        </div>
+        <div class="time-box-wrapper">
+            <div class="region-name">EUROPE</div>
+            <div id="europe" class="time-box"></div>
+        </div>
+        <div class="time-box-wrapper">
+            <div class="region-name">UAE</div>
+            <div id="uae" class="time-box"></div>
+        </div>
+        <div class="time-box-wrapper">
+            <div class="region-name">SINGAPORE</div>
+            <div id="singapore" class="time-box"></div>
+        </div>
+        <div class="time-box-wrapper">
+            <div class="region-name">S.AMERICA</div>
+            <div id="samerica" class="time-box"></div>
+        </div>
+        <div class="time-box-wrapper">
+            <div class="region-name">S.AFRICA</div>
+            <div id="safrica" class="time-box"></div>
+        </div>
+    </div>
+
+    <!-- Контейнер для таблицы с криптовалютами -->
+    <div id="grid-container">
+        <table id="grid-table"></table>
+    </div>
+
+    <!-- Подключение скриптов -->
+    <script src="crypto.js"></script>
+    <script src="daynight.js"></script>
+    <script src="timezones.js"></script>
+</body>
+</html>
