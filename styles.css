@@ -1,7 +1,7 @@
 /* Подключение шрифта digital-7 */
 @font-face {
     font-family: 'Digital-7';
-    src: url('fonts/digital_7/digital-7.ttf') format('truetype');
+    src: url('digital-7.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -9,7 +9,7 @@
 /* Подключение шрифта PixelMix для названий и цен криптовалют */
 @font-face {
     font-family: 'PixelMix';
-    src: url('fonts/pixelmix/pixelmix.ttf') format('truetype');
+    src: url('pixelmix.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
